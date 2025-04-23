@@ -22,13 +22,10 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Pretendard Variable", Pretendard, Roboto, "Noto Sans KR", "Segoe UI", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
 }
 
-<<<<<<< HEAD
 .wrap {
     height: 100%;
 }
 
-=======
->>>>>>> 1dbe65d641a8bbc3af848b5cc47eed6b7f896a5c
 header {
     width: 100%;
     height: var(--header-height);
@@ -228,7 +225,6 @@ main section.main_visual {
         }
 
         & li.main1 a {
-<<<<<<< HEAD
             background-image: url(../img/Genia_Banner01.png);
         }
 
@@ -238,17 +234,6 @@ main section.main_visual {
 
         & li.main3 a {
             background-image: url(../img/Genia_Banner04.png);
-=======
-            background-image: url(../img/Genia_mainVisual03.png);
-        }
-
-        & li.main2 a {
-            background-image: url(../img/Genia_mainVisual05.png);
-        }
-
-        & li.main3 a {
-            background-image: url(../img/main3.png);
->>>>>>> 1dbe65d641a8bbc3af848b5cc47eed6b7f896a5c
         }
 
         & li.swiper-slide-active a {
@@ -447,11 +432,7 @@ section.txt_area h2 .tit {
 
 .vision {
     height: 130vh;
-<<<<<<< HEAD
     background: url(../img/Genia_Banner06.png);
-=======
-    background: var(--main-color-deep);
->>>>>>> 1dbe65d641a8bbc3af848b5cc47eed6b7f896a5c
     color: var(--white-color);
 }
 
@@ -516,10 +497,6 @@ section.txt_area h2 .tit {
     width: 32%;
     height: 100%;
     position: relative;
-<<<<<<< HEAD
-=======
-    font-size: 50px;
->>>>>>> 1dbe65d641a8bbc3af848b5cc47eed6b7f896a5c
     transform-style: preserve-3d;
 }
 
@@ -535,7 +512,6 @@ section.txt_area h2 .tit {
     cursor: default;
     backface-visibility: hidden;
     border-radius: 50px;
-<<<<<<< HEAD
     background-size: cover;
     background-position: center center;
 }
@@ -1003,17 +979,4 @@ footer p{
 }
 footer p span{
     font-weight: 300;
-=======
-}
-
-.sticky_con ul li>.back {
-    background: var(--white-color);
-    color: var(--main-color);
-    transform: rotateY(180deg);
-}
-
-.locate {
-    position: relative;
-    left: 30px;
->>>>>>> 1dbe65d641a8bbc3af848b5cc47eed6b7f896a5c
 }

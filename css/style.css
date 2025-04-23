@@ -656,22 +656,13 @@ nav ul.gnb li a img {
 .aboutMe {
     width: 100%;
     height: 1200px;
-<<<<<<< HEAD
     background: url("../img/Background1-2.png");
     /* display: flex; */
     position: relative;
 }
 
 .aboutMeBox {
-    /* display: flex; */
-=======
-    background: url("../img/Background1-4.png");
     display: flex;
-}
-
-.aboutMeBox {
-    display: flex;
->>>>>>> 1dbe65d641a8bbc3af848b5cc47eed6b7f896a5c
 }
 
 .aboutMeTxtBox {
@@ -685,13 +676,13 @@ nav ul.gnb li a img {
 /* IMAGES - ABOUT ME */
 
 .aboutMe img.tiger {
-<<<<<<< HEAD
     width: 899px;
     height: 899px;
     filter: drop-shadow(0px 4px 4px 0px rgba(0, 0, 0, 0.25));
     position: absolute;
     top: 150px;
     bottom: 151px;
+    left: 90px;
 }
 
 .aboutMe img.productDesigner {
@@ -706,21 +697,8 @@ nav ul.gnb li a img {
     width: 473px;
     height: 469px;
     position: absolute;
-    top: 102px;
+    top: 150px;
     left: 1071px;
-=======
-    width: 25%;
-    height: 40%;
-    filter: drop-shadow(0px 4px 4px 0px rgba(0, 0, 0, 0.25));
-}
-
-.aboutMe img.productDesigner {
-    width: 10%;
-}
-
-.aboutMe img.sohwiPark {
-    width: 20%;
->>>>>>> 1dbe65d641a8bbc3af848b5cc47eed6b7f896a5c
 }
 
 
@@ -732,12 +710,9 @@ nav ul.gnb li a img {
     font-size: 25px;
     line-height: 31px;
     color: var(--design-color3);
-<<<<<<< HEAD
     position: absolute;
-    top: 524px;
+    top: 650px;
     left: 1112px;
-=======
->>>>>>> 1dbe65d641a8bbc3af848b5cc47eed6b7f896a5c
 }
 
 .aboutMe p span.tigerHeart {
@@ -770,18 +745,12 @@ nav ul.gnb li a img {
     background: var(--design-gradient4);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     cursor: pointer;
-<<<<<<< HEAD
     position: absolute;
-    top: 843px;
+    top: 950px;
     left: 1099px;
 }
 
 .txtAndButton {
-=======
-}
-
-.txtAndButton{
->>>>>>> 1dbe65d641a8bbc3af848b5cc47eed6b7f896a5c
     padding-bottom: 50px;
 }
 
@@ -789,25 +758,17 @@ nav ul.gnb li a img {
 .outro {
     width: 100%;
     height: 1400px;
-<<<<<<< HEAD
     background: url("../img/Outro(2).png");
     position: relative;
 }
 
 .outro img.sohwiAndTiger {
-    width: 890px;
-    height: 1133px;
+    width: 1000px;
+    height: 1200px;
     position: absolute;
     top: 127px;
     left: 105px;
 
-=======
-    background: url("../img/Outro.png");
-}
-
-.outro img.sohwiAndTiger {
-    width: 45%;
->>>>>>> 1dbe65d641a8bbc3af848b5cc47eed6b7f896a5c
 }
 
 .outro button {
@@ -827,12 +788,9 @@ nav ul.gnb li a img {
     justify-content: center;
     align-items: center;
     cursor: pointer;
-<<<<<<< HEAD
     position: absolute;
     top: 650px;
     left: 1342px;
-=======
->>>>>>> 1dbe65d641a8bbc3af848b5cc47eed6b7f896a5c
 }
 
 .outro button img {

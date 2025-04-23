@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 gsap.registerPlugin(ScrollTrigger);
 const scrollContainer = document.querySelector("[data-scroll-container]");
 // 한 번만 설정
@@ -35,8 +34,6 @@ ScrollTrigger.refresh();
 
 
 
-=======
->>>>>>> 1dbe65d641a8bbc3af848b5cc47eed6b7f896a5c
 const nav = document.querySelector('nav');
 nav.addEventListener('mouseenter', (e) => {
     e.target.classList.add('on');
@@ -94,7 +91,6 @@ function updatePagination(swiper) {
 
 //마우스 따라다니는 커서 + 드래그 효과
 const cursor = document.querySelector('.custom_cursor');
-<<<<<<< HEAD
 const businessSection = document.querySelector('.business ul');
 
 //마우스가 움직일때마다 커서 따라가기
@@ -115,50 +111,6 @@ if (businessSection && cursor) {
 }
 
 
-=======
-const businessSection = document.querySelector('business ul');
-
-//마우스가 움직일때마다 커서 따라가기
-document.addEventListener('mousemove', (e) => {
-    //const scrollY
-    cursor.style.left = `${e.clientX}px`; //가로위치
-    cursor.style.top = `${e.clientY}px`; //세로위치  
-})
-
-
-gsap.registerPlugin(ScrollTrigger);
-// 한 번만 설정
-ScrollTrigger.defaults({
-    scroller: "body",
-    scrub: 1
-});
-
-const locoScroll = new LocomotiveScroll({
-    el: document.querySelector("body"),  // 전체 페이지에 적용
-    smooth: true, // 부드러운 스크롤 활성화
-    lerp: 0.08, // 부드러운 감속 정도 (0~1)
-});
-
-// Locomotive Scroll과 ScrollTrigger 동기화
-locoScroll.on("scroll", ScrollTrigger.update);
-ScrollTrigger.scrollerProxy("body", {
-    scrollTop(value) {
-        return arguments.length ? locoScroll.scrollTo(value, 0, 0) : locoScroll.scroll.instance.scroll.y;
-    },
-    getBoundingClientRect() {
-        return {
-            top: 0,
-            left: 0,
-            width: window.innerWidth,
-            height: window.innerHeight,
-        };
-    }
-});
-
-// Locomotive Scroll 적용 후 ScrollTrigger 업데이트
-ScrollTrigger.addEventListener("refresh", () => locoScroll.update());
-ScrollTrigger.refresh();
->>>>>>> 1dbe65d641a8bbc3af848b5cc47eed6b7f896a5c
 
 let tl = gsap.timeline({
     scrollTrigger: {
@@ -202,11 +154,7 @@ visionCards.forEach((card, i) => {
     })
 })
 
-<<<<<<< HEAD
 function applySimolyScroll(selector, speed = 4, direction = 'forwards') {
-=======
-function applySimplyScroll(selector, speed = 4, direction = 'forwards') {
->>>>>>> 1dbe65d641a8bbc3af848b5cc47eed6b7f896a5c
     $(selector).simplyScroll({
         speed,
         direction,
@@ -214,7 +162,6 @@ function applySimplyScroll(selector, speed = 4, direction = 'forwards') {
         pauseOnTouch: true,
     })
 }
-<<<<<<< HEAD
 applySimolyScroll('.vision .list');
 
 let businessSwiper = new Swiper('.business .slide', {
@@ -286,6 +233,3 @@ let newsSwiper = new Swiper('.news .con', {
     },
     spaceBetween:50,
 })
-=======
-applySimplyScroll('.vision .list');
->>>>>>> 1dbe65d641a8bbc3af848b5cc47eed6b7f896a5c
