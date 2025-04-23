@@ -432,7 +432,7 @@ section.txt_area h2 .tit {
 
 .vision {
     height: 130vh;
-    background: url(../img/Genia_Banner06.png);
+    background: #1B9EF2;
     color: var(--white-color);
 }
 
@@ -555,17 +555,17 @@ section.txt_area h2 .tit {
 
 .sticky_con ul li:nth-child(1) .icon {
     background-image: url(../img/Genia_CardBack01.png);
-    background-color: rgba(156, 163, 15, 0.831);
+    background-color: #20B6D0; /* rgba(156, 163, 15, 0.831); */
 }
 
 .sticky_con ul li:nth-child(2) .icon {
     background-image: url(../img/Genia_CardBack02.png);
-    background-color: rgba(15, 163, 153, 0.485);
+    background-color: #3CCFE9; /* rgba(15, 163, 153, 0.485); */
 }
 
 .sticky_con ul li:nth-child(3) .icon {
     background-image: url(../img/Genia_CardBack03.png);
-    background-color: rgba(123, 15, 163, 0.712);
+    background-color: #48E4FF; /* rgba(123, 15, 163, 0.712); */
 }
 
 .sticky_con ul li h3 {
